@@ -30,4 +30,4 @@ Als je de opdracht goed uitvoert wordt de volgende tekst getoond in je browser:
 _Waar hierboven xxx staat moet natuurlijk jouw echte naam en leeftijd staan!_
 
 ## Bronnen
->[W3 Schools - echo](https://www.w3schools.com/php/php_echo_print.asp)
+>[W3 Schools - echo](https://wwww.w3schools.com/php/php_echo_print.asp)
