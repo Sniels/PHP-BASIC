@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Eindoprdracht</title>
 
-    <?php include "includes/functions.php"?>
+    <?php 
+    $producten = array("Appels","Peren","Bananen","Ui","Prei","Bosui","Water","Cola","Mango","Aardappel");
+    $prijs = array(0.20,0.12,0.30,0.40,0.20,0.15,1.20,0.80,0.60,0.20);
+    
+    include "includes/functions.php"?>
 
   </head>
   <form action="producten.php" method="get"><!-- dit laten staan! -->
@@ -18,8 +22,6 @@
                 <th>Prijs per stuk</th>
             </tr>
             <?php 
-$producten = array("Appels","Peren","Bananen","Ui","Prei","Bosui","Water","Cola","Mango","Aardappel");
-$prijs = array(0.20,0.12,0.30,0.40,0.20,0.15,1.20,0.80,0.60,0.20);
 
 
 echo "<tr>" . "<td>" . "0" . $producten[0] . "<td>" . $prijs[0];
